@@ -16,7 +16,7 @@ const bool ES_ADMIN = true;
 
 //Área de un circulo.
 float radio = 0, area = 0;
-cout << "Ingrese el radio del circulo";
+cout << "Ingrese el radio del circulo: ";
 cin >> radio;
 area = PI*radio*radio;
 cout << "El área del circulo de radio "<<radio<<" es: "<<area<<endl;
