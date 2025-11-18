@@ -38,13 +38,13 @@ case 1:
     else cout << "La fecha ingresada no es válida, vuelva a ejecutar el programa"<<endl;
     break;
 case 2:
-    if (dia >= 19 && dia <= 29) cout << "El signo de la persona es PISIS"<<endl;
+    if (dia >= 19 && dia <= 29) cout << "El signo de la persona es PICIS"<<endl;
     else if (dia < 19 && dia > 0) cout << "El signo de la persona es ACUARIO"<<endl;
     else cout << "La fecha ingresada no es válida, vuelva a ejecutar el programa"<<endl;
     break;
 case 3:
     if (dia >= 21 && dia <= 31) cout << "El signo de la persona es ARIES"<<endl;
-    else if (dia < 21 && dia > 0) cout << "El signo de la persona es PISIS"<<endl;
+    else if (dia < 21 && dia > 0) cout << "El signo de la persona es PICIS"<<endl;
     else cout << "La fecha ingresada no es válida, vuelva a ejecutar el programa"<<endl;
     break;
 case 4:
