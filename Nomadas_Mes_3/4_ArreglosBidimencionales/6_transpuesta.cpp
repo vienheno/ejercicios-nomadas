@@ -12,7 +12,7 @@ void matrizTranspuesta (int filas, int columnas, float matriz[MAX_FIL][MAX_COL])
 
 int main() {
 setlocale(LC_ALL, "es_ES.UTF-8");
-system("clear");
+system("cls");
 cout<<endl<<"--------------- Matriz Transpuesta -----------------"<<endl<<endl; 
 int filasA = 0, columnasA = 0;
 float matrizA[MAX_FIL][MAX_COL];
