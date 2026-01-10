@@ -26,7 +26,7 @@ void  datosLibros (Libro libroN) {
 
 int main() {
 setlocale(LC_ALL, "es_ES.UTF-8");
-system("clear");
+system("cls");
 cout<<endl<<"--------------- Inicio del código -----------------"<<endl<<endl; 
 
 datosLibros (libro1);

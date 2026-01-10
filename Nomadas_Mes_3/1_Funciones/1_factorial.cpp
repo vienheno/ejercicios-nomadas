@@ -7,7 +7,7 @@ int factorialNumero(int numero);
 
 int main() {
 setlocale(LC_ALL, "es_ES.UTF-8");
-system("clear");
+system("cls");
 cout<<endl<<"--------------- Inicio del código -----------------"<<endl<<endl; 
 int num = 0;
 do {

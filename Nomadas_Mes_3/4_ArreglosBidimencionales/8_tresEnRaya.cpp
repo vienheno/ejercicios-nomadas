@@ -8,7 +8,7 @@ void imprimirMatriz (char matriz[3][3]);
 
 int main() {
 setlocale(LC_ALL, "es_ES.UTF-8");
-system("clear");
+system("cls");
 cout<<endl<<"--------------- Tres en raya -----------------"<<endl; 
 char matriz3raya[3][3] = {{'-','-','-'},{'-','-','-'},{'-','-','-'}};
 imprimirMatriz(matriz3raya);
