@@ -1,5 +1,5 @@
 /*
-Escribe un programa que calcule la longitud de una cadena de caracteres (tipochar) sin usar la funciónstrlen. 
+Escribe un programa que calcule la longitud de una cadena de caracteres (tipochar) sin usar la función strlen. 
 Utiliza punteros para recorrer la cadena.
 */      
 #include <iostream>
