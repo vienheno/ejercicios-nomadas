@@ -1,0 +1,143 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: cascadia code;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.card {
+    /* border: 2px solid black; */
+    height: 350px;
+    width: 650px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card-left {
+    /* border: 2px solid green; */
+    width: 40%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-right {
+    /* border: 2px solid blue; */
+    width: 60%;
+    background-color: grey;
+    border-left: 4px solid green;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.foto-perfil {
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid green;
+    margin-bottom: 10px;
+}
+
+.qr-div {
+    border: 3px solid green;
+    width: 80px;
+    height: 80px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qr {
+    width: 70px;
+}
+
+h2 {
+    color: white;
+    font-size: 22px;
+}
+
+.color-nombre {
+    color: green;
+}
+
+h3 {
+    color: gainsboro;
+    font-size: 12px;
+}
+
+.datos-div {
+    height: 18%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    /* border: 2px solid; */
+}
+
+.description-div {
+    display: flex;
+    flex-direction: column;
+    height: 36%;
+    /* border: 2px solid; */
+    font-size: 12px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    line-height: 1.5;
+    justify-content: center;
+    gap: 10px;
+}
+
+.button {
+    background-color: green;
+    padding: 3px;
+    border-radius: 7px;
+    width: 150px;
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #2980b9;   
+}
+.button:active {
+    background-color: blue;
+}
+
+.description-p {
+    border: 2px solid green;
+    border-radius: 10px;
+}
+
+.img-black {
+    width: 40px;
+}
+
+.tech {
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    /* border: 2px solid; */
+}
+
+.tech-img {
+    width: 30px;
+}
+
+.text-black {
+    font-size: 18px;
+    padding: 5px;
+    border: 3px solid green;
+    border-radius: 10px;
+}

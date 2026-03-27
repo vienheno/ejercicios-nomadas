@@ -1,0 +1,38 @@
+/*
+SELECTORES
+
+Estructura:
+    selector {
+    propiedad: valor;
+    }
+*/
+
+/*Selector UNIVERSAL*/
+* {
+    margin: 10px;
+    padding: 0px;
+    font-family: fire-code; /*Tipo de letra*/
+}
+
+/*Selector de TIPO*/
+h1 {
+    color: blue; /*color: define color de texto*/
+    font-size: 24px;
+}
+
+/*Selector de CLASE*/
+.mi-clase {
+    font-weight: bold;
+    color: brown;
+    line-height: 1.5; /*Cambia el espaciado del interlineado*/
+    background-color: lightskyblue;
+    padding: 8px;
+}
+
+/*Selector de ID*/
+#parrafo {
+    font-style: italic ;
+    background-color: gainsboro;
+    padding: 8px;
+    line-height: 1.5;
+}

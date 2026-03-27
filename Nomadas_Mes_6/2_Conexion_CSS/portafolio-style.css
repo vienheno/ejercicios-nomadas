@@ -1,0 +1,26 @@
+* {
+    margin: 8px;
+    font-family: cascadia code;
+}
+
+h1 {
+    color: red;
+    background-color: wheat;
+    padding: 8px;
+}
+
+h2 {
+    color: blue;
+}
+
+img {
+    border-color: black;
+    border-radius: 20px;
+    border: 2px solid black;
+    
+}
+
+.description {
+    color: blue;
+}
+

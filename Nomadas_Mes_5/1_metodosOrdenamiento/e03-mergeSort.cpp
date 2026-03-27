@@ -57,7 +57,7 @@ void merge (int arrL[], int tamL, int arrR[], int tamR) { //arrL[] y arrR[] tien
             indexL++;
         } 
     } 
-    imprimirArreglo(arrMerge, tamM);
+    //imprimirArreglo(arrMerge, tamM);
 }
 
 void intercambioElementosArray (int arreglo[], int index1, int index2) {
